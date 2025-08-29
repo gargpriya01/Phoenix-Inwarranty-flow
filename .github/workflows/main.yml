@@ -36,6 +36,7 @@ jobs:
 
       - name : Newman report
         uses: actions/upload-artifact@v4.6.2
+        if : always ()
         with :
             name : Newman Report 
             path : newman/*.html
