@@ -20,7 +20,7 @@ jobs:
       -  name : Install node.js and npm
          uses : actions/setup-node@v3.9.1
          with : 
-            node-versions : '22'
+            node-version : '22'
 
       - name : Install newman and HTML-extra globally
         run : |
